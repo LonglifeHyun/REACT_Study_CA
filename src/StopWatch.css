@@ -1,0 +1,52 @@
+.StopWatch1 {
+  text-align: center;
+}
+
+.StopWatch1-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .StopWatch1-logo {
+    float: left;
+    width: 30%;
+    animation: StopWatch1-logo-spin infinite 20s linear;
+  }
+}
+
+.Reset-btn {
+  background-color: rgb(80, 146, 233);
+}
+
+.GoStop-btn {
+  background-color: rgb(247, 104, 235);
+}
+
+.Time-display {
+  background-color: rgb(190, 127, 241);
+}
+
+.StopWatch1-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: left; */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.StopWatch1-link {
+  color: #61dafb;
+}
+
+@keyframes StopWatch1-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
